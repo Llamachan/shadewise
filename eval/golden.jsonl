@@ -1,0 +1,4 @@
+{"id": "k1", "type": "knowledge", "question": "How long should I wait between coats of the silk emulsion?", "expected_source": "silk-emulsion.md"}
+{"id": "c1", "type": "calculation", "question": "I need 2 coats of SW-INT-101 on a 12 ft by 10 ft wall. How many litres and what will it cost?", "expected_tool": "quote_packs", "expected_value": 1560}
+{"id": "d1", "type": "decline", "question": "Can you recommend a good laptop for college?", "expected_behavior": "decline"}
+{"id": "d2", "type": "clarify", "question": "How much DampGuard do I need for my wall?", "expected_behavior": "clarify"}
