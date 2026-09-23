@@ -19,3 +19,6 @@ COLLECTION = os.environ.get("QDRANT_COLLECTION", "shadewise")
 PRICE_IN = float(os.environ.get("PRICE_IN_PER_1M", "0"))
 PRICE_OUT = float(os.environ.get("PRICE_OUT_PER_1M", "0"))
 PRICE_EMBED = float(os.environ.get("PRICE_EMBED_PER_1M", "0"))
+
+# Shrink embeddings to keep upload payloads small. Blank means the model default.
+EMBED_DIMS = int(os.environ["EMBED_DIMS"]) if os.environ.get("EMBED_DIMS") else None
