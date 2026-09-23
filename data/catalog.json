@@ -1,0 +1,14 @@
+{
+  "SW-INT-101": {"name": "Hearthline Silk Emulsion", "category": "interior", "coverage_sqft_per_litre": 120, "pack_sizes_litres": [1, 4, 10, 20], "price_per_pack_inr": {"1": 520, "4": 1950, "10": 4700, "20": 9100}},
+  "SW-INT-102": {"name": "Hearthline Classic Matt Emulsion", "category": "interior", "coverage_sqft_per_litre": 110, "pack_sizes_litres": [1, 4, 10, 20], "price_per_pack_inr": {"1": 340, "4": 1280, "10": 3050, "20": 5800}},
+  "SW-INT-103": {"name": "Hearthline Kitchen & Bath Emulsion", "category": "interior", "coverage_sqft_per_litre": 110, "pack_sizes_litres": [1, 4, 10], "price_per_pack_inr": {"1": 610, "4": 2300, "10": 5500}},
+  "SW-EXT-201": {"name": "Hearthline WeatherShield Exterior Emulsion", "category": "exterior", "coverage_sqft_per_litre": 80, "pack_sizes_litres": [1, 4, 10, 20], "price_per_pack_inr": {"1": 560, "4": 2120, "10": 5100, "20": 9800}},
+  "SW-EXT-202": {"name": "Hearthline WeatherShield Max", "category": "exterior", "coverage_sqft_per_litre": 50, "pack_sizes_litres": [1, 4, 10, 20], "price_per_pack_inr": {"1": 780, "4": 2980, "10": 7200, "20": 13900}},
+  "SW-EXT-203": {"name": "Hearthline TerraceGuard Roof Coat", "category": "exterior", "coverage_sqft_per_litre": 35, "pack_sizes_litres": [4, 10, 20], "price_per_pack_inr": {"4": 2600, "10": 6200, "20": 11800}},
+  "SW-PRM-301": {"name": "Hearthline DampGuard Primer", "category": "primer", "coverage_sqft_per_litre": 90, "pack_sizes_litres": [1, 4, 10], "price_per_pack_inr": {"1": 380, "4": 1400, "10": 3300}},
+  "SW-PRM-302": {"name": "Hearthline Multi-Surface Primer", "category": "primer", "coverage_sqft_per_litre": 110, "pack_sizes_litres": [1, 4, 10], "price_per_pack_inr": {"1": 420, "4": 1560, "10": 3700}},
+  "SW-WOD-401": {"name": "Hearthline Timbercoat PU Clear Finish", "category": "wood", "coverage_sqft_per_litre": 120, "pack_sizes_litres": [1, 4, 20], "price_per_pack_inr": {"1": 890, "4": 3400, "20": 16200}},
+  "SW-WOD-402": {"name": "Hearthline Deck & Door Exterior Wood Stain", "category": "wood", "coverage_sqft_per_litre": 100, "pack_sizes_litres": [1, 4, 10], "price_per_pack_inr": {"1": 960, "4": 3680, "10": 8900}},
+  "SW-ENM-501": {"name": "Hearthline Gloss Enamel", "category": "enamel", "coverage_sqft_per_litre": 150, "pack_sizes_litres": [1, 4, 20], "price_per_pack_inr": {"1": 480, "4": 1820, "20": 8600}},
+  "SW-ENM-502": {"name": "Hearthline AquaSatin Enamel", "category": "enamel", "coverage_sqft_per_litre": 130, "pack_sizes_litres": [1, 4, 20], "price_per_pack_inr": {"1": 650, "4": 2480, "20": 11800}}
+}
