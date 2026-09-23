@@ -5,9 +5,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Gemini speaks the OpenAI API at this base URL, so the standard OpenAI clients work unchanged.
-LLM_BASE_URL = os.environ.get("LLM_BASE_URL", "https://generativelanguage.googleapis.com/v1beta/openai/")
-LLM_API_KEY = os.environ["LLM_API_KEY"]
+# Chat and embeddings each talk the OpenAI API, so they can come from different providers.
+CHAT_BASE_URL = os.environ["CHAT_BASE_URL"]
+CHAT_API_KEY = os.environ["CHAT_API_KEY"]
 CHAT_MODEL = os.environ["CHAT_MODEL"]
+
+EMBED_BASE_URL = os.environ["EMBED_BASE_URL"]
+EMBED_API_KEY = os.environ["EMBED_API_KEY"]
 EMBED_MODEL = os.environ["EMBED_MODEL"]
 
 QDRANT_URL = os.environ["QDRANT_URL"]
