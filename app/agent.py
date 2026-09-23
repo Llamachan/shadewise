@@ -60,7 +60,7 @@ async def ask(question: str) -> dict:
     usage = tracking.start()
     t0 = time.perf_counter()
     agent = await get_agent()
-    result = await agent.ainvoke({"messages": [("human", question)]}, config={"recursion_limit": 12})
+    result = await agent.ainvoke({"messages": [("human", question)]}, config={"recursion_limit": 25})
 
     tool_calls = []
     for m in result["messages"]:
